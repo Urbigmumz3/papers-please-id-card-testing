@@ -65,8 +65,8 @@ function randomLastName() {
 }
 function randomFemaleIMG() {
   var images = new Array(
-    "/pic.png",
-    "/pic4.png"
+    "/images/pic.png",
+    "/images/pic4.png"
   );
   var number = Math.floor(Math.random() * images.length);
   var image = images[number];
@@ -74,10 +74,10 @@ function randomFemaleIMG() {
 }
 function randomMaleIMG() {
   var images = new Array(
-    "/jorji.png",
-    "/pic1.png",
-    "/pic2.png",
-    "/pic3.png"
+    "/images/jorji.png",
+    "/images/pic1.png",
+    "/images/pic2.png",
+    "/images/pic3.png"
   );
   var number = Math.floor(Math.random() * images.length);
   var image = images[number];
@@ -146,17 +146,3 @@ document.getElementById("Name").innerHTML = NAME;
 document.getElementById("WT").innerHTML = Weight;
 document.getElementById("DOB").innerHTML = DOB;
 document.getElementById("District").innerHTML = District;
-
-function download() {
-  document.getElementById("A").click();
-  document.getElementById("A2").click();
-  document.getElementById("A3").click();
-  document.getElementById("A4").click();
-  document.getElementById("A5").click();
-  document.getElementById("A6").click();
-  document.getElementById("A7").click();
-  document.getElementById("A8").click();
-  document.getElementById("A9").click();
-  document.getElementById("A10").click();
-  document.getElementById("A11").click();
-}
